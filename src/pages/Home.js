@@ -5,7 +5,7 @@ import FormStuff from "../components/FormStuff";
 
 const Home = () => {
   return (
-    <div className="home min-vh-100 pb-4 min-vw-100">
+    <div className="home min-vh-100 pb-4 overflow-auto">
       <h1 className="app-title py-5">My Stuff</h1>
       <Table />
       <FormStuff />
